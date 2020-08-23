@@ -172,7 +172,7 @@ header .toggle.active {
 @media (max-width: 991px) {
   section {
     background-size: 200%;
-    background-size: fill;
+    overflow: hidden;
   }
   .content h2 {
     font-size: 5em;
