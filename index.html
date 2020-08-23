@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <a href="#" class="logo">Travel</a>
+        <div class="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2>
+          Roam <br />
+          Around
+        </h2>
+      </div>
+      <div class="play" onclick="playVid()">
+        <img src="./images/play.png" alt="" id="play" /> <span>Play video</span>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="./images/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/instagram.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/twitter.png" alt="" /></a>
+        </li>
+      </ul>
+      <div class="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Blog</a></li>
+
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+    <div class="trailer">
+      <video src="./images/clip.mp4" controls="true"></video>
+      <img class="close" src="./images/close.png" alt="" onclick="playVid()" />
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
